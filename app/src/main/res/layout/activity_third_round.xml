@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/TLTablica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+
+
+
+                android:textSize="20sp"
+                android:gravity="left"
+                android:layout_weight="0.5"
+
+                />
+            <TextView
+                android:id="@+id/tvPlayer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Player1"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:id="@+id/tvPlayer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Player2"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textStyle="bold"
+
+
+
+                />
+            <TextView
+                android:id="@+id/tvPlayer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Player3"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:id="@+id/tvPlayer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Player4"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textStyle="bold"
+
+                />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="0.5"
+                android:gravity="left"
+                android:text="Štihovi"
+                android:padding="10dp"
+                android:textStyle="bold"
+
+
+
+                />
+
+            <EditText
+                android:id="@+id/ETStihoviPlayer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:inputType="number|numberSigned"
+
+                android:layout_weight="1"
+                android:text="0"
+
+
+
+                />
+            <EditText
+                android:id="@+id/ETStihoviPlayer2"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:layout_weight="1"
+                android:inputType="number|numberSigned"
+                android:text="0"
+
+
+                />
+            <EditText
+                android:id="@+id/ETStihoviPlayer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:layout_weight="1"
+                android:inputType="number|numberSigned"
+                android:text="0"
+
+
+                />
+            <EditText
+                android:id="@+id/ETStihoviPlayer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:layout_weight="1"
+                android:inputType="number|numberSigned"
+                android:text="0"
+
+
+                />
+
+
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="0.5"
+                android:gravity="left"
+                android:text="Crvene"
+                android:padding="10dp"
+                android:textStyle="bold"
+
+
+                />
+
+            <EditText
+                android:id="@+id/ETCrvenePlayer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:layout_weight="1"
+                android:inputType="number|numberSigned"
+
+
+                />
+            <EditText
+                android:id="@+id/ETCrvenePlayer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:layout_weight="1"
+                android:inputType="number|numberSigned"
+
+
+                />
+            <EditText
+                android:id="@+id/ETCrvenePlayer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:layout_weight="1"
+                android:inputType="number|numberSigned"
+
+
+                />
+            <EditText
+                android:id="@+id/ETCrvenePlayer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:layout_weight="1"
+                android:inputType="number|numberSigned"
+
+
+                />
+
+
+
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="0.5"
+                android:gravity="left"
+                android:text="Dame"
+                android:padding="10dp"
+                android:textStyle="bold"
+
+
+                />
+
+            <EditText
+                android:id="@+id/ETDamePlayer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:layout_weight="1"
+                android:inputType="number|numberSigned"
+
+
+                />
+            <EditText
+                android:id="@+id/ETDamePlayer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:layout_weight="1"
+                android:inputType="number|numberSigned"
+
+
+                />
+            <EditText
+                android:id="@+id/ETDamePlayer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:layout_weight="1"
+                android:inputType="number|numberSigned"
+
+
+                />
+            <EditText
+                android:id="@+id/ETDamePlayer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:layout_weight="1"
+                android:inputType="number|numberSigned"
+
+
+                />
+
+
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="0.5"
+                android:gravity="left"
+                android:text="CK/ZŠ"
+                android:padding="10dp"
+                android:textStyle="bold"
+
+
+                />
+
+            <EditText
+                android:id="@+id/ETCKPlayer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+
+                android:layout_weight="1"
+                android:inputType="number|numberSigned"
+
+
+                />
+            <EditText
+                android:id="@+id/ETCKPlayer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:layout_weight="1"
+                android:inputType="number|numberSigned"
+
+
+                />
+            <EditText
+
+                android:id="@+id/ETCKPlayer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:layout_weight="1"
+                android:inputType="number|numberSigned"
+
+
+                />
+            <EditText
+
+                android:id="@+id/ETCKPlayer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:layout_weight="1"
+                android:inputType="number|numberSigned"
+
+
+                />
+
+
+
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Slagalica"
+                android:textStyle="bold"
+
+
+                />
+
+            <TextView
+
+                android:id="@+id/TVSlagalicaPlayer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="0"
+
+
+
+                />
+            <TextView
+                android:id="@+id/TVSlagalicaPlayer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="0"
+
+
+                />
+            <TextView
+                android:id="@+id/TVSlagalicaPlayer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="0"
+
+
+                />
+            <TextView
+                android:id="@+id/TVSlagalicaPlayer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="0"
+
+
+                />
+
+
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Σ"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textStyle="bold"
+
+
+                />
+
+            <TextView
+                android:id="@+id/TVSumPlayer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:layout_weight="1"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="25sp"
+
+
+                />
+            <TextView
+                android:id="@+id/TVSumPlayer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+
+                android:layout_weight="1"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="25sp"
+
+
+                />
+            <TextView
+                android:id="@+id/TVSumPlayer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:layout_weight="1"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="25sp"
+
+
+                />
+            <TextView
+                android:id="@+id/TVSumPlayer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:layout_weight="1"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="25sp"
+
+
+                />
+
+
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Σ3"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textStyle="bold"
+
+
+                />
+
+            <TextView
+                android:id="@+id/TVSumPlayer1SecoundRound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:layout_weight="1"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="25sp"
+
+
+                />
+            <TextView
+                android:id="@+id/TVSumPlayer2SecoundRound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+
+                android:layout_weight="1"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="25sp"
+
+
+                />
+            <TextView
+                android:id="@+id/TVSumPlayer3SecoundRound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:layout_weight="1"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="25sp"
+
+
+                />
+            <TextView
+                android:id="@+id/TVSumPlayer4SecoundRound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:layout_weight="1"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="25sp"
+
+
+                />
+
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="100dp">
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="Točkice"
+                android:padding="10dp"
+                android:textStyle="bold"
+
+
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+
+
+                android:layout_weight="1"
+                android:text="Dodaj"
+                android:onClick="player1Dodaj"
+
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+
+
+                android:layout_weight="1"
+                android:text="Dodaj"
+                android:onClick="player2Dodaj"
+
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+
+
+                android:layout_weight="1"
+                android:text="Dodaj"
+                android:onClick="player3Dodaj"
+
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+
+
+                android:layout_weight="1"
+                android:text="Dodaj"
+                android:onClick="player4Dodaj"
+
+                />
+
+
+
+
+
+        </TableRow>
+
+
+
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="4.Runda"
+            android:layout_weight="1"
+            android:onClick="jumpToFourthRound"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
